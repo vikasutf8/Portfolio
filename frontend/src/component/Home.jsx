@@ -23,7 +23,7 @@ const Home = () => {
             </div>
         </div>
         <div className='w-2/5'>
-            <img src={HeroImage} alt="myImages"
+            <img src='https://avatars.githubusercontent.com/u/117626243?v=4' alt="myImages"
             className='rounded-2xl mx-auto w-full md:w-full'
             />
         </div>

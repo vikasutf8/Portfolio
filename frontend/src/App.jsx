@@ -1,6 +1,7 @@
 import About from "./component/About"
 import Home from "./component/Home"
 import Navbar from "./component/Navbar"
+import Protfolio from "./component/Protfolio"
 import SocialLinks from "./component/SocialLinks"
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Home/>
       <SocialLinks/>
       <About/>
+      <Protfolio/>
     </div>
   )
 }
