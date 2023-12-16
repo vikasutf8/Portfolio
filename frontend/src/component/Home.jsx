@@ -1,14 +1,30 @@
 import React from 'react'
 import {MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import HeroImage from '../assets/glenn-carstens-peters-P1qyEf1g0HU-unsplash.jpg'
-// C:\Users\bhara\Desktop\portfolio\frontend\src\assets\
+import {TypeAnimation} from 'react-type-animation'
 
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full bg-gradient-to-b from-black to-slate-800 via-black' >
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row  lg:gap-3'>
         <div className='flex flex-col justify-center h-full w-3/5'>
-            <h2  className='text-4xl sm:text-7xl font-bold text-white'> I'm a <span>Full Stack</span> Developer</h2>
+            <h2  className='text-4xl sm:text-7xl font-bold text-white'> <span>I'm a  </span>
+            <span>
+            <TypeAnimation
+              sequence={[
+                ' Full Stack',1000,
+                ' Software',1000,
+              ]}
+              speed={20}
+              className='text-orange-700'
+              wrapper='span'
+              repeat={Infinity}
+            />
+
+            
+              
+              
+              </span> Developer</h2>
             <p className='text-gray-400 py-4 max-w-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
              Tempore rem sed temporibus accusamus nobis aspernatur magnam voluptatibus culpa 
             ex mollitia. Voluptas repellat expedita molestias!
